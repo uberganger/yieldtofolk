@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1080" viewBox="0 0 2000 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 200px;
+        fill: #ebcb76;
+        text-anchor: middle;
+        font-family: Costa;
+      }
+
+      .cls-2 {
+        fill: #ae5d44;
+      }
+    </style>
+  </defs>
+  <text id="YieLD_TO_FOLK" data-name="YieLD TO FOLK" class="cls-1" x="1000.5" y="713.766"><tspan x="1000.5">YieLD TO FOLK</tspan></text>
+  <ellipse class="cls-2" cx="1000.5" cy="348.5" rx="151.5" ry="152.5"/>
+  <ellipse class="cls-2" cx="1709.5" cy="-462.5" rx="151.5" ry="152.5"/>
+</svg>
