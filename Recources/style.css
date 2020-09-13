@@ -128,8 +128,9 @@ p {
 .dropdown-menu {
     position: absolute;
     bottom: 230px;
+    width: 60px;
     left: -36px;
-    padding: 100px 15px 5px 15px;
+    padding: 200px 15px 5px 15px;
     background-color: #f1f1f1;
     transition: transform 1s ease-in-out;
     z-index: 2;
@@ -354,6 +355,34 @@ p {
     margin: 25px 15px;
 }
 
+.news-img-container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-image: url(./Images/microgreens.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #f1f1f1;
+
+}
+
+.news-img-container-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-image: url(./Images/stand.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #f1f1f1;
+
+}
+
 /* Pre Footer */
 
 .pre-footer-container {
@@ -466,4 +495,244 @@ p {
     width: 100%;
     text-align: right;
     color: #37383a;
+}
+
+/* ABOUT PAGE */
+
+/* Banner */
+
+.about-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 100%;
+    margin: auto;
+    background-image: url(./Images/bok-choy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-banner-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 40%;
+    color: #f1f1f1;
+}
+
+.about-banner-text-container h3 {
+    font-size: 25px;
+}
+
+/* About */
+
+.about-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    width: 90%;
+}
+
+.all-founder-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    flex-flow: row;
+    margin: 60px 0px 20px 0px;
+}
+
+.founder-container-left {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.founder-img-left {
+    height: 125px;
+    width: 125px;
+    border-radius: 360px;
+    background-image: url(./Images/seeding.jpg);
+}
+
+.founder-container-center {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.founder-img-center {
+    height: 125px;
+    width: 125px;
+    border-radius: 360px;
+    background-image: url(./Images/seeding.jpg);
+}
+
+.founder-container-right {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.founder-img-right {
+    height: 125px;
+    width: 125px;
+    border-radius: 360px;
+    background-image: url(./Images/seeding.jpg);
+}
+
+@media only screen and (max-width: 550px) {
+   
+.founder-container-left {
+    overflow-wrap: break-word;
+    padding: 0px 10px;
+}
+
+.founder-img-left {
+    height: 80px;
+    width: 80px;
+}
+
+.founder-container-center {
+    overflow-wrap: break-word;
+    padding: 0px 10px;
+}
+
+.founder-img-center {
+    height: 80px;
+    width: 80px;
+}
+
+.founder-container-right {
+    overflow-wrap: break-word;
+    padding: 0px 10px;
+}
+
+.founder-img-right {
+    height: 80px;
+    width: 80px;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+    .about-banner-text-container h3 {
+        font-size: 20px;
+    }
+}
+
+/* Process */
+
+.all-process-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    flex-flow: column;
+    height: auto;
+    width: 90%;
+}
+
+.process-container-left {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 40px 0px;
+}
+
+.process-container-right {
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 40px 0px;
+}
+
+.process-img-germ {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    background-image: url(./Images/germination.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.process-img-plant {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    background-image: url(./Images/planting.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.process-img-aero {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    background-image: url(./Images/Aeroponics.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.process-img-package {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    background-image: url(./Images/package\ and\ repeat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.process-text-container {
+    display: flex;
+    flex-flow: column;
+    overflow-wrap: break-word;
+    width: 50%;
+    margin: 0px 25px 0px 25px;
+}
+
+@media only screen and (max-width: 665px) {
+    
+    .process-text-container {
+        width: 90%;
+        min-width: 250px;
+    }
+    
+    .process-img-germ {
+        display: none;
+    }
+
+    .process-img-plant {
+        display: none;
+    }
+
+    .process-img-aero {
+        display: none;
+    }
+
+    .process-img-package {
+        display: none;
+    }
 }
